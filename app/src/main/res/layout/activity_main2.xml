@@ -23,15 +23,15 @@
       app:layout_constraintVertical_bias="0.0">
 
     <TextView
-        android:id="@+id/txtfechav2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
         android:id="@+id/txtrespuesta"
         android:layout_width="match_parent"
-        android:layout_height="75dp" />
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar imagen" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -48,9 +48,10 @@
 
     <ImageView
         android:id="@+id/imagenv"
-        android:layout_width="388dp"
-        android:layout_height="455dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
         />
+
   </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

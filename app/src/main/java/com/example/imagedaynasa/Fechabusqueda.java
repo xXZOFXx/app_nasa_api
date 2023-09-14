@@ -69,7 +69,7 @@ public class Fechabusqueda extends AppCompatActivity implements DatePickerDialog
 
                 OkHttpClient client = new OkHttpClient();
                 String url = "https://api.nasa.gov/planetary/apod?start_date=" + valorFechaUno +
-                        "&end_date=" + valorFechaDos + "&api_key=YOUR_API";
+                        "&end_date=" + valorFechaDos + "&api_key=API_KEY";
 
                 Request request = new Request.Builder()
                         .url(url)
